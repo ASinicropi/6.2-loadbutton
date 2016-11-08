@@ -7,7 +7,7 @@ var Backbone = require('backbone');
 
   var ButtonCollection = Backbone.Collection.extend({
     model: Button,
-    url: 'http://tiny-lasagna-server.herokuapp.com/collections/posts',
+    url: 'https://tiny-lasagna-server.herokuapp.com/collections/posts',
 
   });
 
